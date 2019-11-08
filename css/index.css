@@ -167,7 +167,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 2% 0 0 0;
 }
 .test .top {
   display: flex;
@@ -176,7 +175,8 @@ p {
 }
 .test h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
+  margin: 1% 0 0 0;
 }
 .test h1:hover {
   cursor: pointer;
@@ -192,7 +192,7 @@ p {
 .test .nav {
   display: flex;
   justify-content: center;
-  margin: 2% 0;
+  margin: 1% 0;
 }
 @media (max-width: 500px) {
   .test .nav {
@@ -200,11 +200,16 @@ p {
   }
 }
 .test .nav a {
-  margin: 0 3%;
+  margin: 0 1.5%;
   text-decoration: none;
   color: #5E6164;
   font-weight: bold;
   font-size: 1.5rem;
+}
+.test .nav a:hover {
+  cursor: pointer;
+  color: #F6F7F8;
+  background-color: #22283A;
 }
 footer {
   color: #22283B;

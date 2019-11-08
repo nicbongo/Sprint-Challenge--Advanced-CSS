@@ -36,6 +36,14 @@
     padding: 0 3%;
 }
 
-.hide () { // mixin 2
+.hide() { // mixin 2
     display: none;
+}
+
+.hover() {
+    &:hover {
+        cursor: pointer;
+        color: @porcelain;
+        background-color: @btn-bg-color;
+    }
 }
